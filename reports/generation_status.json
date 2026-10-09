@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "records": 400,
+  "pending_ids": [],
+  "submission": "submission_v2/result.json",
+  "validation_report": "reports/submission_validation.json",
+  "checkpoint": ".t2q/runs/f4a9d44af6676f838d32/predictions.json",
+  "final_resume_log": "reports/generation_resume8.log",
+  "automated_tests_passed": 23,
+  "old_result_preserved": true
+}

@@ -1,0 +1,43 @@
+{
+  "pipeline_version": "v2.6",
+  "model": "deepseek-v4-pro",
+  "records": 400,
+  "changed_from_old": 382,
+  "static_validation": {
+    "ok": true,
+    "records": 400,
+    "errors": []
+  },
+  "source_distribution": {
+    "MYSQL": 102,
+    "POSTGRESQL": 37,
+    "Elasticsearch": 50,
+    "CROSS": 13,
+    "SQLite": 198
+  },
+  "submission_ready": true,
+  "artifact_hashes": {
+    "result.json": "fde53924a00f195b1a19ad41c1faba464ca1d915aaafb40d12a86f3e1a5ee979",
+    "result_v2.json": "ca1986054a1f5266edddde0ac3fa3c78d1cda565ec76e8dd6ad1231ef17def84",
+    "reports/partial_predictions.json": "771c97f66c28bc0e425427ff2b3ce125b716881666043c9016dd17f98626527e",
+    "赛题8.zip": "32ee71b45ec33664d45c755f3ff599820fbada86bd6912cfba8aa2e9b2caaa56",
+    "数据库说明及行政区划表数据.rar": "d08404be8c1adba5091c1b5f6a7ba215fdac604f15285a9faba35eb92f0d601c",
+    ".t2q/catalog.json": "01d6f653c71ed4616e28ebf2b3082e80808b5373af0dd7e05e9597b0277e11c5"
+  },
+  "code_hashes": {
+    "text2query/__init__.py": "f8e5283a916474d6b7f605ee9affd0c42507863f48473a03596a0f56f3ed74a3",
+    "text2query/__main__.py": "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987",
+    "text2query/cli.py": "4f2d6bee8a8de6785579de02398ed281df856a7542893ab6a4b8835cde371dbd",
+    "text2query/generator.py": "89840db03cdc1ef98dccc61667bce605c2bdc11f3d4ff465b958f2b4f1073019",
+    "text2query/io.py": "05dd71d0931ad831099fe035b8774720afb4622b78b230641e9050a53d14c0a8",
+    "text2query/pipeline.py": "2f41045a6b82f7747d6fa7abbbb3a3cd20ba49ea5340acd74912aaf33625b527",
+    "text2query/retrieval.py": "e6413a43cf650b7f0c7094735039b25720cda4fa00ad3a9ed3178fe1cb801767",
+    "text2query/schema.py": "285f5b6fd7662b33a51f7e5ba0659a799f32994e757ea06ed9374e683f93012a",
+    "text2query/validator.py": "26f1ff59057937d57c8fca25f73d08e5abd7a9456ad93dd2545f37cf5a4ad30d"
+  },
+  "evaluation_limitations": [
+    "No database files; no execution-accuracy measurement.",
+    "Education unspecified-year prior assumes original dataset ID ordering.",
+    "Nine training ES answers reference daily_outpatient absent from published mapping."
+  ]
+}

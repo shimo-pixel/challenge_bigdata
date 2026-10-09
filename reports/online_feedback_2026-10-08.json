@@ -1,0 +1,39 @@
+{
+  "source": "User-provided competition feedback",
+  "received_on": "2026-10-08",
+  "submission_hash_confirmed": false,
+  "overall": {
+    "questions": 400,
+    "fully_correct": 321,
+    "accuracy": 0.8025,
+    "score": 869,
+    "maximum_score": 1087
+  },
+  "coefficient_rules": {
+    "es": "0.5 * ID-set matching + 0.5 * order matching",
+    "pg_and_federation": "1 if predicted execution result is nonempty, otherwise 0",
+    "mysql_and_sqlite": "1 if result sets are equivalent, otherwise 0",
+    "maximum_per_question": "Determined by type and complexity using evaluator SCORE_MATRIX; matrix and per-question metadata not supplied"
+  },
+  "by_database": {
+    "es": {"questions": 50, "fully_correct": 50, "score": 137, "maximum_score": 137},
+    "federation": {"questions": 12, "fully_correct": 12, "score": 57, "maximum_score": 57},
+    "mysql": {"questions": 100, "fully_correct": 78, "score": 214.5, "maximum_score": 264.5},
+    "pg": {"questions": 38, "fully_correct": 35, "score": 52, "maximum_score": 59},
+    "sqlite": {"questions": 200, "fully_correct": 146, "score": 408.5, "maximum_score": 569.5}
+  },
+  "by_type": {
+    "calculation": {"questions": 7, "fully_correct": 6, "score": 27, "maximum_score": 33},
+    "federation": {"questions": 12, "fully_correct": 12, "score": 57, "maximum_score": 57},
+    "geo": {"questions": 31, "fully_correct": 28, "score": 118.5, "maximum_score": 132},
+    "intermediate": {"questions": 3, "fully_correct": 3, "score": 13.5, "maximum_score": 13.5},
+    "knowledge": {"questions": 226, "fully_correct": 171, "score": 511, "maximum_score": 683},
+    "simple": {"questions": 121, "fully_correct": 101, "score": 142, "maximum_score": 168.5}
+  },
+  "by_complexity": {
+    "complex": {"questions": 80, "fully_correct": 64, "score": 220, "maximum_score": 282},
+    "easy": {"questions": 103, "fully_correct": 88, "score": 142, "maximum_score": 163},
+    "medium": {"questions": 217, "fully_correct": 169, "score": 507, "maximum_score": 642}
+  },
+  "per_question_feedback_available": false
+}

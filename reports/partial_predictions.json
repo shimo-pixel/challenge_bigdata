@@ -1,0 +1,227 @@
+[
+  {
+    "db": "MYSQL",
+    "query": "SELECT t.type_name, SUM(v.load_capacity) AS total_load FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code GROUP BY t.type_name;",
+    "question_id": 4
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT status, COUNT(*) FROM transportation.shipping_company GROUP BY status;",
+    "question_id": 13
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT LEFT(area_id,4) AS city_code, COUNT(*) AS vehicle_count FROM transportation.vehicle WHERE area_id LIKE '32%' GROUP BY LEFT(area_id,4);",
+    "question_id": 14
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT business_type, COUNT(*) AS company_count FROM (SELECT business_type FROM transportation.vehicle_company UNION ALL SELECT business_type FROM transportation.shipping_company UNION ALL SELECT business_type FROM energy.energy_company) AS all_companies GROUP BY business_type;",
+    "question_id": 16
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT business_type, COUNT(company_id) AS company_count FROM transportation.shipping_company GROUP BY business_type;",
+    "question_id": 17
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.vessel WHERE max_load > 50000;",
+    "question_id": 45
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.driver WHERE license_type = 'A2';",
+    "question_id": 48
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.vehicle WHERE area_id LIKE '21%';",
+    "question_id": 53
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.vehicle WHERE area_id LIKE '36%';",
+    "question_id": 58
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.vehicle WHERE area_id LIKE '63%';",
+    "question_id": 72
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT mmsi, max_load FROM transportation.vessel WHERE max_load < 5000;",
+    "question_id": 80
+  },
+  {
+    "db": "POSTGRESQL",
+    "query": "SELECT mmsi, sog FROM vessel_ais_data WHERE sog >= 25",
+    "question_id": 82
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT plate_number FROM transportation.vehicle WHERE load_capacity IS NULL;",
+    "question_id": 102
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT plate_number FROM transportation.vehicle WHERE model = 'X5';",
+    "question_id": 111
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT name FROM transportation.driver WHERE birth_date > '1990-12-31';",
+    "question_id": 112
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT name FROM transportation.employee WHERE gender = '女';",
+    "question_id": 113
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT name FROM transportation.driver WHERE license_type = 'C1';",
+    "question_id": 115
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT plate_number, brand FROM transportation.vehicle;",
+    "question_id": 120
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT plate_number FROM transportation.vehicle WHERE load_capacity > (SELECT AVG(load_capacity) FROM transportation.vehicle);",
+    "question_id": 126
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT c.company_name, COUNT(v.vehicle_id) AS vehicle_count FROM transportation.vehicle_company c LEFT JOIN transportation.vehicle v ON c.company_id = v.company_id GROUP BY c.company_id, c.company_name;",
+    "question_id": 141
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT vc.company_name, COALESCE(SUM(v.load_capacity), 0) AS total_load FROM transportation.vehicle_company vc LEFT JOIN transportation.vehicle v ON vc.company_id = v.company_id GROUP BY vc.company_id, vc.company_name;",
+    "question_id": 143
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT sc.company_name, AVG(v.max_speed) AS average_speed FROM transportation.shipping_company sc JOIN transportation.vessel v ON sc.company_id = v.company_id GROUP BY sc.company_id;",
+    "question_id": 173
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT a.province_name AS province, t.type_name AS vehicle_type, COUNT(*) AS vehicle_count FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code JOIN common.administrative_division a ON v.area_id = a.id GROUP BY a.province_name, t.type_name ORDER BY a.province_name, t.type_name;",
+    "question_id": 175
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT v.brand, ad.province_name, COUNT(*) AS vehicle_count FROM transportation.vehicle v JOIN common.administrative_division ad ON v.area_id = ad.id GROUP BY v.brand, ad.province_name ORDER BY v.brand, ad.province_name;",
+    "question_id": 195
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT AVG(v.load_capacity) AS avg_load FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code WHERE v.area_id LIKE '3201%' AND t.type_name = '货车';",
+    "question_id": 215
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(*) FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code WHERE v.area_id LIKE '2301%' AND t.type_name = '货车' AND v.load_capacity > 15;",
+    "question_id": 217
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT v.mmsi FROM transportation.vessel v JOIN common.vessel_type_dict vt ON v.vessel_type = vt.type_code WHERE vt.type_name = '军事舰艇';",
+    "question_id": 230
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT * FROM transportation.vehicle WHERE LEFT(area_id,2) IN ('31','32','33','34');",
+    "question_id": 259
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT plate_number, load_capacity FROM transportation.vehicle WHERE brand = '福田' AND load_capacity > 10;",
+    "question_id": 280
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT t.type_name, COUNT(CASE WHEN v.load_capacity <= 5 THEN 1 END) AS `轻型`, COUNT(CASE WHEN v.load_capacity > 5 AND v.load_capacity <= 15 THEN 1 END) AS `中型`, COUNT(CASE WHEN v.load_capacity > 15 THEN 1 END) AS `重型` FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code GROUP BY t.type_name",
+    "question_id": 288
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT stock_name, listing_date FROM finance_tax.stocks WHERE listing_date < '2015-01-01';",
+    "question_id": 312
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(DISTINCT company_id) AS enterprise_count FROM finance_tax.corporate_income_tax_returns WHERE tax_year = 2025;",
+    "question_id": 321
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT t.open_price, t.close_price FROM finance_tax.stocks s JOIN finance_tax.stock_daily_trades t ON s.stock_id = t.stock_id WHERE s.stock_code = '000001' AND t.trade_date = '2025-12-31';",
+    "question_id": 325
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT COUNT(DISTINCT company_id) FROM finance_tax.corporate_income_tax_returns WHERE is_restricted_industry = FALSE;",
+    "question_id": 332
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT stock_name, current_price * total_shares AS current_total_market_cap FROM finance_tax.stocks WHERE market_class = 'A';",
+    "question_id": 368
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT c.company_name, r.revenue FROM finance_tax.corporate_income_tax_returns r JOIN finance_tax.companies c ON r.company_id = c.company_id WHERE r.tax_year = 2025 ORDER BY r.revenue DESC;",
+    "question_id": 376
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT c.company_name, cur.revenue - prev.revenue AS revenue_difference FROM finance_tax.corporate_income_tax_returns cur JOIN finance_tax.companies c ON cur.company_id = c.company_id LEFT JOIN finance_tax.corporate_income_tax_returns prev ON prev.company_id = cur.company_id AND prev.tax_year = 2024 WHERE cur.tax_year = 2025 ORDER BY c.company_name",
+    "question_id": 389
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT c.company_name, r.revenue FROM finance_tax.corporate_income_tax_returns r JOIN finance_tax.companies c ON r.company_id = c.company_id JOIN common.dict_registration_type rt ON c.registration_type_code = rt.type_code WHERE rt.type_name = '港澳台商投资企业' ORDER BY r.revenue DESC LIMIT 1",
+    "question_id": 392
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT i.industry_name, COUNT(*) AS company_count FROM finance_tax.companies c JOIN common.dict_industry i ON c.industry_code = i.industry_code WHERE c.is_private = TRUE GROUP BY i.industry_name ORDER BY company_count DESC;",
+    "question_id": 397
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT (f.total_assets * 10000 / s.total_shares) AS bps FROM finance_tax.stocks s JOIN finance_tax.company_financials f ON s.company_id = f.company_id WHERE s.stock_name = '贵州茅台' AND f.report_date = '2025-03-31';",
+    "question_id": 418
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT s.stock_name, (MAX(t.high_price) - MIN(t.low_price)) / AVG(t.close_price) AS volatility_ratio FROM finance_tax.stocks s INNER JOIN finance_tax.stock_daily_trades t ON s.stock_id = t.stock_id WHERE t.trade_date BETWEEN '2025-01-01' AND '2025-12-31' GROUP BY s.stock_id, s.stock_name;",
+    "question_id": 438
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT s.stock_name, (t.close_price / ((f.total_assets * 10000) / s.total_shares)) AS pb FROM finance_tax.stocks s JOIN finance_tax.company_financials f ON s.company_id = f.company_id JOIN finance_tax.stock_daily_trades t ON s.stock_id = t.stock_id WHERE f.report_date = '2025-12-31' AND t.trade_date = '2025-12-31' ORDER BY pb DESC LIMIT 5;",
+    "question_id": 442
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT AVG(revenue - non_taxable_income - deductions - prior_year_losses) AS average_taxable_income FROM finance_tax.corporate_income_tax_returns WHERE tax_year = 2025;",
+    "question_id": 455
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT (r.revenue - r.non_taxable_income - r.deductions - r.prior_year_losses) * 0.10 AS tax_saved FROM finance_tax.corporate_income_tax_returns r JOIN finance_tax.stocks s ON r.company_id = s.company_id WHERE s.stock_name = '腾讯控股' AND r.tax_year = 2024;",
+    "question_id": 461
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT DISTINCT c.company_name FROM finance_tax.corporate_income_tax_returns r JOIN finance_tax.companies c ON c.company_id = r.company_id WHERE r.tax_year = 2025 AND r.non_taxable_income / r.revenue > 0.5;",
+    "question_id": 513
+  }
+]

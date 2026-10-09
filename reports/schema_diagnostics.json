@@ -1,0 +1,76 @@
+{
+  "tables": 265,
+  "tables_by_source": {
+    "MYSQL": 70,
+    "POSTGRESQL": 1,
+    "SQLite": 193,
+    "Elasticsearch": 1
+  },
+  "administrative_data_loaded": true,
+  "dictionary_statements": 343,
+  "training_schema_conflicts": [
+    {
+      "question_id": 2079,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2239,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2288,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2347,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2367,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2386,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2429,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2434,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    },
+    {
+      "question_id": 2444,
+      "source": "Elasticsearch",
+      "errors": [
+        "unknown Elasticsearch field: daily_outpatient"
+      ]
+    }
+  ]
+}

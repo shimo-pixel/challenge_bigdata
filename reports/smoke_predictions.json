@@ -1,0 +1,17 @@
+[
+  {
+    "db": "MYSQL",
+    "query": "SELECT t.type_name AS vehicle_type, SUM(v.load_capacity) AS total_load_capacity FROM transportation.vehicle v JOIN common.vehicle_type_dict t ON v.vehicle_type_code = t.type_code GROUP BY t.type_name",
+    "question_id": 4
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT status, COUNT(*) FROM transportation.shipping_company GROUP BY status;",
+    "question_id": 13
+  },
+  {
+    "db": "MYSQL",
+    "query": "SELECT LEFT(area_id,4) AS city_code, COUNT(*) AS vehicle_count FROM transportation.vehicle WHERE area_id LIKE '32%' GROUP BY LEFT(area_id,4);",
+    "question_id": 14
+  }
+]

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.t2q/cache/
+.t2q/runs/
+.t2q/tools/

@@ -1,0 +1,1265 @@
+Run 446a9ce3e8737742c910: 0/60 resumed, 60 pending
+completed 1/60 id=33 calls=0
+completed 2/60 id=511 calls=0
+completed 3/60 id=411 calls=1
+completed 4/60 id=912 calls=4
+completed 5/60 id=678 calls=4
+completed 6/60 id=229 calls=4
+completed 7/60 id=1171 calls=4
+completed 8/60 id=1240 calls=4
+completed 9/60 id=1681 calls=4
+completed 10/60 id=1646 calls=4
+completed 11/60 id=1915 calls=4
+completed 12/60 id=2276 calls=4
+completed 13/60 id=1731 calls=4
+completed 14/60 id=1796 calls=4
+completed 15/60 id=1864 calls=4
+completed 16/60 id=2307 calls=4
+completed 17/60 id=3060 calls=4
+completed 18/60 id=3047 calls=4
+completed 19/60 id=3176 calls=4
+completed 20/60 id=3182 calls=4
+completed 21/60 id=3235 calls=4
+completed 22/60 id=3488 calls=4
+completed 23/60 id=3469 calls=4
+completed 24/60 id=3557 calls=4
+completed 25/60 id=3601 calls=4
+completed 26/60 id=3692 calls=4
+completed 27/60 id=3705 calls=4
+completed 28/60 id=3833 calls=4
+completed 29/60 id=3918 calls=4
+completed 30/60 id=3989 calls=4
+completed 31/60 id=4084 calls=4
+completed 32/60 id=4257 calls=4
+completed 33/60 id=4325 calls=4
+completed 34/60 id=4490 calls=4
+completed 35/60 id=4463 calls=4
+completed 36/60 id=4717 calls=4
+completed 37/60 id=4517 calls=4
+completed 38/60 id=4871 calls=4
+completed 39/60 id=4763 calls=4
+completed 40/60 id=5118 calls=4
+completed 41/60 id=4906 calls=4
+completed 42/60 id=5049 calls=4
+completed 43/60 id=5044 calls=4
+completed 44/60 id=5132 calls=4
+completed 45/60 id=5325 calls=4
+completed 46/60 id=5341 calls=4
+completed 47/60 id=5487 calls=4
+completed 48/60 id=5494 calls=4
+completed 49/60 id=5648 calls=4
+completed 50/60 id=5651 calls=4
+completed 51/60 id=5857 calls=4
+completed 52/60 id=5776 calls=4
+completed 53/60 id=5876 calls=4
+completed 54/60 id=5823 calls=4
+completed 55/60 id=6079 calls=4
+completed 56/60 id=6161 calls=4
+completed 57/60 id=2592 calls=5
+completed 58/60 id=2953 calls=8
+completed 59/60 id=2768 calls=8
+completed 60/60 id=3000 calls=8
+Run 1f1ac9e2a53b58bf5a6d: 0/60 resumed, 60 pending
+completed 1/60 id=912 calls=8
+completed 2/60 id=33 calls=8
+completed 3/60 id=1171 calls=8
+completed 4/60 id=229 calls=9
+completed 5/60 id=1240 calls=12
+completed 6/60 id=511 calls=12
+completed 7/60 id=678 calls=12
+completed 8/60 id=411 calls=12
+completed 9/60 id=1646 calls=12
+completed 10/60 id=1796 calls=12
+completed 11/60 id=2276 calls=12
+completed 12/60 id=1681 calls=12
+completed 13/60 id=1864 calls=12
+completed 14/60 id=1731 calls=12
+completed 15/60 id=2307 calls=12
+completed 16/60 id=1915 calls=12
+completed 17/60 id=3047 calls=12
+completed 18/60 id=3060 calls=12
+completed 19/60 id=3176 calls=12
+completed 20/60 id=3235 calls=12
+completed 21/60 id=3182 calls=12
+completed 22/60 id=3469 calls=12
+completed 23/60 id=3488 calls=12
+completed 24/60 id=3601 calls=12
+completed 25/60 id=3557 calls=12
+completed 26/60 id=3692 calls=12
+completed 27/60 id=3918 calls=12
+completed 28/60 id=3705 calls=12
+completed 29/60 id=3833 calls=12
+completed 30/60 id=3989 calls=12
+completed 31/60 id=4257 calls=12
+completed 32/60 id=4325 calls=12
+completed 33/60 id=4084 calls=12
+completed 34/60 id=4463 calls=12
+completed 35/60 id=4490 calls=12
+completed 36/60 id=4517 calls=12
+completed 37/60 id=4717 calls=12
+completed 38/60 id=4763 calls=12
+completed 39/60 id=4871 calls=12
+completed 40/60 id=4906 calls=12
+completed 41/60 id=5044 calls=12
+completed 42/60 id=5118 calls=12
+completed 43/60 id=5132 calls=12
+completed 44/60 id=5049 calls=12
+completed 45/60 id=5325 calls=12
+completed 46/60 id=5494 calls=12
+completed 47/60 id=5341 calls=12
+completed 48/60 id=5487 calls=12
+completed 49/60 id=5648 calls=12
+completed 50/60 id=5651 calls=12
+completed 51/60 id=5857 calls=12
+completed 52/60 id=5776 calls=12
+completed 53/60 id=5823 calls=12
+completed 54/60 id=5876 calls=12
+completed 55/60 id=6161 calls=12
+completed 56/60 id=6079 calls=12
+completed 57/60 id=2592 calls=12
+completed 58/60 id=2768 calls=15
+completed 59/60 id=3000 calls=15
+completed 60/60 id=2953 calls=15
+{
+  "split_seed": 42,
+  "fit_rows": 5245,
+  "heldout_rows": 585,
+  "evaluated_rows": 60,
+  "no_question_overlap": true,
+  "metric_note": "Normalized query match and static validity are proxies, not database execution accuracy.",
+  "usage": {
+    "calls": 15,
+    "cache_hits": 288,
+    "retries": 0,
+    "prompt_tokens": 71123,
+    "completion_tokens": 47345
+  },
+  "baseline": {
+    "overall": {
+      "rows": 60,
+      "source_correct": 60,
+      "database_correct": 53,
+      "static_valid": 60,
+      "normalized_query_match": 4,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.8833333333333333,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.06666666666666667
+    },
+    "MYSQL:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:finance_tax": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:energy": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 1,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.5,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:ecommerce": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2024": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "MYSQL:education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 0,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:education_2024,education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "Elasticsearch:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "POSTGRESQL:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "CROSS:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:book_publishing_company": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 1,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.5,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:codebase_comments": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:soccer_2016": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:genes": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:professional_basketball": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:shakespeare": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 1,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.5,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:video_games": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:authors": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:public_review_platform": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:citeseer": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:simpson_episodes": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:mental_health_survey": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:disney": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:olympics": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:beer_factory": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:language_corpus": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 1,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.5,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:books": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:image_and_language": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:hockey": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 1,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 0.5,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:music_platform_2": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:cookbook": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:bike_share_1": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:movie_3": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    }
+  },
+  "generated": {
+    "overall": {
+      "rows": 60,
+      "source_correct": 60,
+      "database_correct": 60,
+      "static_valid": 60,
+      "normalized_query_match": 18,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.3
+    },
+    "MYSQL:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:finance_tax": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:energy": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "MYSQL:ecommerce": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2024": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2024,education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "Elasticsearch:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "POSTGRESQL:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "CROSS:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:book_publishing_company": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:codebase_comments": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:soccer_2016": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:genes": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:professional_basketball": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:shakespeare": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:video_games": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:authors": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:public_review_platform": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:citeseer": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:simpson_episodes": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:mental_health_survey": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:disney": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "SQLite:olympics": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "SQLite:beer_factory": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:language_corpus": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:books": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:image_and_language": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:hockey": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:music_platform_2": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:cookbook": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:bike_share_1": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:movie_3": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    }
+  },
+  "reviewed": {
+    "overall": {
+      "rows": 60,
+      "source_correct": 60,
+      "database_correct": 60,
+      "static_valid": 60,
+      "normalized_query_match": 18,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.3
+    },
+    "MYSQL:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:finance_tax": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "MYSQL:energy": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "MYSQL:ecommerce": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2024": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "MYSQL:education_2024,education_2025": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "Elasticsearch:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "POSTGRESQL:": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "CROSS:transportation": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:book_publishing_company": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:codebase_comments": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:soccer_2016": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:genes": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:professional_basketball": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:shakespeare": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:video_games": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:authors": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:public_review_platform": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:citeseer": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:simpson_episodes": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:mental_health_survey": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:disney": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "SQLite:olympics": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 2,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 1.0
+    },
+    "SQLite:beer_factory": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:language_corpus": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:books": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 1,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.5
+    },
+    "SQLite:image_and_language": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:hockey": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:music_platform_2": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:cookbook": {
+      "rows": 1,
+      "source_correct": 1,
+      "database_correct": 1,
+      "static_valid": 1,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:bike_share_1": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    },
+    "SQLite:movie_3": {
+      "rows": 2,
+      "source_correct": 2,
+      "database_correct": 2,
+      "static_valid": 2,
+      "normalized_query_match": 0,
+      "source_correct_rate": 1.0,
+      "database_correct_rate": 1.0,
+      "static_valid_rate": 1.0,
+      "normalized_query_match_rate": 0.0
+    }
+  }
+}

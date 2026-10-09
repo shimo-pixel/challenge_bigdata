@@ -1,0 +1,1602 @@
+[
+  {
+    "question_id": 4,
+    "question": "统计各车型的总载重量"
+  },
+  {
+    "question_id": 13,
+    "question": "统计各船舶公司经营状态的分布"
+  },
+  {
+    "question_id": 14,
+    "question": "统计江苏省各市的车辆数"
+  },
+  {
+    "question_id": 16,
+    "question": "统计所有公司的经营类型分布"
+  },
+  {
+    "question_id": 17,
+    "question": "统计所有船舶公司的经营类型分布"
+  },
+  {
+    "question_id": 45,
+    "question": "统计所有船舶中最大载重超过50000吨的数量"
+  },
+  {
+    "question_id": 48,
+    "question": "统计所有驾驶员中持有A2驾照的人数"
+  },
+  {
+    "question_id": 53,
+    "question": "查询辽宁省注册的车辆总数"
+  },
+  {
+    "question_id": 58,
+    "question": "查询江西省注册的车辆总数"
+  },
+  {
+    "question_id": 72,
+    "question": "查询青海省注册的车辆总数"
+  },
+  {
+    "question_id": 80,
+    "question": "查询所有船舶中最大载重小于5000吨的船舶"
+  },
+  {
+    "question_id": 82,
+    "question": "查询所有高速船舶的MMSI和航速"
+  },
+  {
+    "question_id": 102,
+    "question": "查询所有车辆中载重为空的车辆"
+  },
+  {
+    "question_id": 111,
+    "question": "查询所有车辆中，型号为'X5'的车辆"
+  },
+  {
+    "question_id": 112,
+    "question": "查询所有驾驶员中，出生日期在1990年以后的"
+  },
+  {
+    "question_id": 113,
+    "question": "查询所有船舶公司员工中性别为女的"
+  },
+  {
+    "question_id": 115,
+    "question": "查询所有驾驶员中，驾照类型为'C1'的驾驶员姓名"
+  },
+  {
+    "question_id": 120,
+    "question": "查询所有车辆的车牌号和品牌"
+  },
+  {
+    "question_id": 126,
+    "question": "查询所有车辆中，载重超过平均载重的车辆"
+  },
+  {
+    "question_id": 141,
+    "question": "统计各公司的车辆数量"
+  },
+  {
+    "question_id": 143,
+    "question": "统计每个公司的车辆总载重"
+  },
+  {
+    "question_id": 173,
+    "question": "查询每个船舶公司的船舶平均航速"
+  },
+  {
+    "question_id": 175,
+    "question": "查询每个省份中，每种车型的数量"
+  },
+  {
+    "question_id": 195,
+    "question": "统计每个品牌在各省份的车辆数量分布"
+  },
+  {
+    "question_id": 215,
+    "question": "查询南京市注册的货车平均载重"
+  },
+  {
+    "question_id": 217,
+    "question": "查询哈尔滨市注册的重型货车数量"
+  },
+  {
+    "question_id": 230,
+    "question": "查询所有军事舰艇（vessel_type=35）的MMSI"
+  },
+  {
+    "question_id": 259,
+    "question": "查询长三角地区注册的所有车辆"
+  },
+  {
+    "question_id": 280,
+    "question": "查询所有车辆中，品牌为'福田'且载重大于10吨的车辆"
+  },
+  {
+    "question_id": 288,
+    "question": "统计各车型中轻型、中型、重型车的数量"
+  },
+  {
+    "question_id": 312,
+    "question": "查询2015年之前上市的所有股票名称和上市日期"
+  },
+  {
+    "question_id": 321,
+    "question": "统计2025年度申报了所得税的企业数量"
+  },
+  {
+    "question_id": 325,
+    "question": "查询股票代码为'000001'的股票在2025年12月31日的开盘价和收盘价"
+  },
+  {
+    "question_id": 332,
+    "question": "查询非限制行业的企业数量"
+  },
+  {
+    "question_id": 368,
+    "question": "查询所有A股股票的当前总市值"
+  },
+  {
+    "question_id": 376,
+    "question": "查询2025年度所有企业的收入总额排名"
+  },
+  {
+    "question_id": 389,
+    "question": "查询每个企业2025年度收入与上一年度的差值"
+  },
+  {
+    "question_id": 392,
+    "question": "查询港澳台商投资企业中收入最高的企业"
+  },
+  {
+    "question_id": 397,
+    "question": "查询每个行业民营企业的数量"
+  },
+  {
+    "question_id": 418,
+    "question": "计算“贵州茅台”在2025年第一季度末的每股净资产"
+  },
+  {
+    "question_id": 438,
+    "question": "计算各股票2025年股价波动幅度比例"
+  },
+  {
+    "question_id": 442,
+    "question": "查询市净率最高的前五只股票"
+  },
+  {
+    "question_id": 455,
+    "question": "计算2025年所有企业平均应纳税所得额"
+  },
+  {
+    "question_id": 461,
+    "question": "请计算腾讯控股2024年度因享受优惠税率而节省的所得税额"
+  },
+  {
+    "question_id": 487,
+    "question": "请计算中国中车2025年度实际税负率"
+  },
+  {
+    "question_id": 507,
+    "question": "计算中国石化2025年股息率与行业平均股息率的差值有多少百分点"
+  },
+  {
+    "question_id": 513,
+    "question": "查询不征税及免税收入占总收入一半以上的企业"
+  },
+  {
+    "question_id": 517,
+    "question": "查询每个行业中民营企业与国企的平均所得税税额对比"
+  },
+  {
+    "question_id": 537,
+    "question": "计算所有股票2025年的年化波动率"
+  },
+  {
+    "question_id": 550,
+    "question": "找出2025年度股息率高于行业平均水平的股票"
+  },
+  {
+    "question_id": 574,
+    "question": "查询所有电力企业中员工数量少于100人的企业名称"
+  },
+  {
+    "question_id": 586,
+    "question": "查询拉萨市所有发电场站的名称"
+  },
+  {
+    "question_id": 591,
+    "question": "查询所有发电场站中并网日期在2020年之后的场站名称"
+  },
+  {
+    "question_id": 602,
+    "question": "查询各发电场站中装机容量超过所属企业平均装机容量的场站名称"
+  },
+  {
+    "question_id": 634,
+    "question": "统计西藏电力企业中管理岗位员工的学历分布"
+  },
+  {
+    "question_id": 649,
+    "question": "统计格尔木市各能源类型的发电场站数量"
+  },
+  {
+    "question_id": 658,
+    "question": "统计各电力企业拥有的承装修试许可证数量"
+  },
+  {
+    "question_id": 667,
+    "question": "统计电力企业各岗位类别员工的平均入职年限"
+  },
+  {
+    "question_id": 670,
+    "question": "统计电力企业各岗位名称的员工数量并按数量降序排列"
+  },
+  {
+    "question_id": 687,
+    "question": "统计三北地区各省份的光伏电站数量"
+  },
+  {
+    "question_id": 693,
+    "question": "统计各经营类型电力企业的平均员工规模"
+  },
+  {
+    "question_id": 699,
+    "question": "统计北京市拥有本科及以上学历的电力企业员工数量"
+  },
+  {
+    "question_id": 732,
+    "question": "统计徐州市发电场站中火电场的员工数量"
+  },
+  {
+    "question_id": 736,
+    "question": "统计呼伦贝尔市发电场站中火电场的员工数量"
+  },
+  {
+    "question_id": 737,
+    "question": "统计安庆市发电场站中火电场的员工数量"
+  },
+  {
+    "question_id": 740,
+    "question": "统计甘孜州发电场站中水电站的员工数量"
+  },
+  {
+    "question_id": 745,
+    "question": "统计阳江市发电场站中核电场的员工数量"
+  },
+  {
+    "question_id": 783,
+    "question": "统计辽宁省电力企业中学历为大专的员工数量"
+  },
+  {
+    "question_id": 846,
+    "question": "统计格尔木市光伏电站的总装机容量"
+  },
+  {
+    "question_id": 867,
+    "question": "统计吉林市发电场站中水电站的数量"
+  },
+  {
+    "question_id": 876,
+    "question": "统计淄博市供电区域的总年供电量"
+  },
+  {
+    "question_id": 889,
+    "question": "统计天水市发电场站中风电场的数量"
+  },
+  {
+    "question_id": 894,
+    "question": "统计赤峰市发电场站中风电场的总年发电量"
+  },
+  {
+    "question_id": 911,
+    "question": "统计绵阳市发电场站中天然气发电站的数量"
+  },
+  {
+    "question_id": 946,
+    "question": "统计阿坝州发电场站中水电站的年发电量"
+  },
+  {
+    "question_id": 978,
+    "question": "统计中卫市发电场站中光伏电站的年发电量"
+  },
+  {
+    "question_id": 988,
+    "question": "统计青岛市拥有风力发电场的电力企业数量"
+  },
+  {
+    "question_id": 992,
+    "question": "查询湖北省的所有水力发电站及其装机容量"
+  },
+  {
+    "question_id": 994,
+    "question": "查询中卫市的所有风力发电场名称和装机容量"
+  },
+  {
+    "question_id": 1004,
+    "question": "查询各发电场站中小型场站名称"
+  },
+  {
+    "question_id": 1124,
+    "question": "统计TMALL平台的GMV。"
+  },
+  {
+    "question_id": 1218,
+    "question": "请帮我统计支付状态为REFUNDED的支付记录数量"
+  },
+  {
+    "question_id": 1226,
+    "question": "帮我查询会员等级为GOLD的用户"
+  },
+  {
+    "question_id": 1275,
+    "question": "请帮我查询应付金额最高的20个订单。"
+  },
+  {
+    "question_id": 1301,
+    "question": "在电商平台上帮我查询消费金额最高的5个用户，输出结果。"
+  },
+  {
+    "question_id": 1327,
+    "question": "在电商平台上查询消费金额最高的20个用户。"
+  },
+  {
+    "question_id": 1383,
+    "question": "请统计APP渠道的订单数量"
+  },
+  {
+    "question_id": 1439,
+    "question": "帮我按月统计GMV。"
+  },
+  {
+    "question_id": 1524,
+    "question": "请帮我查询销量最高的20个商品，返回查询结果。"
+  },
+  {
+    "question_id": 1597,
+    "question": "请查询库存低于10的商品库存记录。"
+  },
+  {
+    "question_id": 1636,
+    "question": "查询学期信息，返回学期代码与起止日期键，并按学年升序取前10条。"
+  },
+  {
+    "question_id": 1648,
+    "question": "查询课程类型为选修的课程，返回课程编号与课程名，并按课程名升序取前30门。"
+  },
+  {
+    "question_id": 1737,
+    "question": "查询学期起始日期键大于等于20240101的学期，返回学期代码与起止日期键，并按起始日期键升序取前10。"
+  },
+  {
+    "question_id": 1781,
+    "question": "查询学期一中每门课程对应的授课教师数量，去重教师工号，返回课程编号、课程名与教师数，按教师数降序取前10。"
+  },
+  {
+    "question_id": 1825,
+    "question": "统计2024与2025中每个院系的课程数量，按课程数降序取前15，输出院系编号、两年课程数。"
+  },
+  {
+    "question_id": 2013,
+    "question": "比较2024与2025教师表中电话非空且非空字符串的比例，电话不为空除以总数，返回两年百分比。"
+  },
+  {
+    "question_id": 2017,
+    "question": "比较2024与2025学生表中性别为女性且学籍状态为在读的数量差，即2025减2024，返回差值与两年数量。"
+  },
+  {
+    "question_id": 2032,
+    "question": "比较2024与2025学期表中起始日期键为0或空字符串的记录数，返回两年数量。"
+  },
+  {
+    "question_id": 2040,
+    "question": "比较2024与2025学生表中学籍状态为在读的学生人数差，即2025减2024，返回差值与两年数量。"
+  },
+  {
+    "question_id": 2051,
+    "question": "比较2024与2025教师表中院系编号的共同数量，返回两年都存在的院系编号及其两年教师人数。"
+  },
+  {
+    "question_id": 2075,
+    "question": "查询成都天府广场周围10公里内的所有医院，返回名称和24小时急诊标志。"
+  },
+  {
+    "question_id": 2094,
+    "question": "杭州西湖周围7公里内所有拥有ICU的医院的平均医生数。"
+  },
+  {
+    "question_id": 2102,
+    "question": "广州塔周围5公里内医院床位数、医生数统计。"
+  },
+  {
+    "question_id": 2103,
+    "question": "深圳市民中心周围6公里内医院救护车数、护士数统计。"
+  },
+  {
+    "question_id": 2116,
+    "question": "武汉黄鹤楼周围6公里内医生数超过500的医院数量。"
+  },
+  {
+    "question_id": 2126,
+    "question": "武汉黄鹤楼周围5公里内，找出医生数大于1000的医院名称。"
+  },
+  {
+    "question_id": 2128,
+    "question": "上海静安寺周围4公里内，找出日均门诊量大于10000的医院。"
+  },
+  {
+    "question_id": 2140,
+    "question": "在上海外滩周边2公里以外、5公里以内的环形区域内，找出拥有24小时急诊的医院。"
+  },
+  {
+    "question_id": 2141,
+    "question": "在北京故宫周边1公里以外、4公里以内的环形区域内，找出三级甲等医院。"
+  },
+  {
+    "question_id": 2143,
+    "question": "在深圳市民中心周边2公里以外、5公里以内的环形区域内，找出拥有ICU的医院。"
+  },
+  {
+    "question_id": 2148,
+    "question": "在矩形区域（31.22,121.44 至 31.24,121.46）对应的环形区域（内径2km，外径5km）内，找出拥有ICU的医院。"
+  },
+  {
+    "question_id": 2151,
+    "question": "统计深圳市民中心周边3-7公里环形区域内所有医院的床位数总和。"
+  },
+  {
+    "question_id": 2178,
+    "question": "在以点(31.23,121.45)为中心、内径1km、外径4km的环形区域内，统计医院床位的统计值。"
+  },
+  {
+    "question_id": 2182,
+    "question": "在北京天安门周边2-5公里环形区域内，找出教学医院的名称和床位数。"
+  },
+  {
+    "question_id": 2196,
+    "question": "查询矩形区域（30.55,114.28 至 30.53,114.30）内的医院。"
+  },
+  {
+    "question_id": 2198,
+    "question": "查询矩形区域（31.24,121.44 至 31.22,121.46）内的医院。"
+  },
+  {
+    "question_id": 2204,
+    "question": "在矩形区域（30.26,120.14 至 30.24,120.17）内，统计医院的护士总数。"
+  },
+  {
+    "question_id": 2205,
+    "question": "在矩形区域（30.67,104.05 至 30.65,104.07）内，统计医院的床位数总和。"
+  },
+  {
+    "question_id": 2207,
+    "question": "在矩形区域（34.27,108.95 至 34.25,108.97）内，统计医院的年门诊量总和。"
+  },
+  {
+    "question_id": 2231,
+    "question": "在矩形区域（31.23,121.44 至 31.21,121.46）内，找出教学医院的名称和床位数。"
+  },
+  {
+    "question_id": 2255,
+    "question": "在多边形区域（顶点：30.67,104.05；30.66,104.07；30.65,104.06；30.66,104.04）内，统计医院的床位数总和。"
+  },
+  {
+    "question_id": 2265,
+    "question": "在多边形区域（顶点：30.67,104.05；30.66,104.07；30.65,104.06；30.66,104.04）内，计算医院的平均护士数。"
+  },
+  {
+    "question_id": 2267,
+    "question": "在多边形区域（顶点：34.27,108.95；34.26,108.97；34.25,108.96；34.26,108.94）内，计算医院的平均医生数。"
+  },
+  {
+    "question_id": 2272,
+    "question": "统计多边形区域（顶点：39.92,116.39；39.91,116.41；39.90,116.40；39.91,116.38）内医院救护车数的统计值。"
+  },
+  {
+    "question_id": 2274,
+    "question": "统计多边形区域（顶点：30.26,120.14；30.25,120.16；30.24,120.15；30.25,120.13）内医院护士数的统计值。"
+  },
+  {
+    "question_id": 2286,
+    "question": "在多边形区域（顶点：30.55,114.28；30.54,114.30；30.53,114.29；30.54,114.27）内，找出医生数大于700的医院名称。"
+  },
+  {
+    "question_id": 2289,
+    "question": "在多边形区域（顶点：39.95,116.35；39.93,116.37；39.91,116.36；39.92,116.34）内，找出拥有ICU且床位数大于500的医院名称。"
+  },
+  {
+    "question_id": 2304,
+    "question": "找出以点(30.2470,120.1480)为中心、半径4公里内的医院，按距离由近到远排序，并输出距离值。"
+  },
+  {
+    "question_id": 2309,
+    "question": "找出以点(39.9163,116.3972)为中心、半径1公里内的医院，按距离由近到远排序，并输出距离值。"
+  },
+  {
+    "question_id": 2322,
+    "question": "找出以点(22.5490,114.0562)为中心、半径6公里内的医院，按距离由近到远排序。"
+  },
+  {
+    "question_id": 2325,
+    "question": "找出以点(30.6600,104.0630)为中心、半径7公里内的医院，按距离由近到远排序。"
+  },
+  {
+    "question_id": 2330,
+    "question": "使用近似最近邻方法，找到最靠近复旦大学附属华山医院的3个医疗机构。"
+  },
+  {
+    "question_id": 2340,
+    "question": "找到最靠近上海瑞金医院的5个医院，返回名称、床位数和评分。"
+  },
+  {
+    "question_id": 2345,
+    "question": "找到最靠近深圳市人民医院的4个医院，返回名称和科室数量。"
+  },
+  {
+    "question_id": 2353,
+    "question": "找到最靠近四川大学华西医院且为教学医院的4个医疗机构。"
+  },
+  {
+    "question_id": 2357,
+    "question": "找到最靠近上海静安寺且拥有24小时急诊的3个医疗机构。"
+  },
+  {
+    "question_id": 2360,
+    "question": "找到最靠近上海瑞金医院且床位数大于1000的5个医院，返回名称、床位数和评分。"
+  },
+  {
+    "question_id": 2368,
+    "question": "找到最靠近北京天安门广场且床位数大于800的4个医院，返回名称和评分。"
+  },
+  {
+    "question_id": 2369,
+    "question": "找到最靠近广州塔且为三级甲等的5个医院，返回名称和医院等级。"
+  },
+  {
+    "question_id": 2375,
+    "question": "在以点(30.6600,104.0630)为中心、半径6公里内，找出三级甲等且24小时急诊的医院。"
+  },
+  {
+    "question_id": 2391,
+    "question": "在北京天安门广场周围8公里内，找出所有顶尖三甲医院，返回名称、评分和救护车数量。"
+  },
+  {
+    "question_id": 2399,
+    "question": "在上海人民广场周围8公里内，查找三级甲等医院或床位数超过1500的医院，排除评分低于4.6的，按日均门诊量降序排列，并计算所有结果医院的床位数总和。"
+  },
+  {
+    "question_id": 2405,
+    "question": "统计所有三级甲等医院的总床位数。"
+  },
+  {
+    "question_id": 2418,
+    "question": "统计所有24小时急诊医院的救护车数统计值。"
+  },
+  {
+    "question_id": 2437,
+    "question": "查询所有三乙医院的名称和护士数。"
+  },
+  {
+    "question_id": 2439,
+    "question": "查询所有没有ICU的医院名称和成立年份。"
+  },
+  {
+    "question_id": 2451,
+    "question": "计算所有大型医院的平均医生数。"
+  },
+  {
+    "question_id": 2452,
+    "question": "统计所有大型医院的总床位数。"
+  },
+  {
+    "question_id": 2456,
+    "question": "统计所有顶尖三甲医院的总年门诊量。"
+  },
+  {
+    "question_id": 2475,
+    "question": "统计优秀护理医院的数量。"
+  },
+  {
+    "question_id": 2490,
+    "question": "查询MMSI为351000003的船舶所有AIS记录。"
+  },
+  {
+    "question_id": 2493,
+    "question": "获取在2024-06-01 08:00:00到12:00:00期间，航行状态为锚泊或受限的船舶记录。"
+  },
+  {
+    "question_id": 2509,
+    "question": "查询2026年5月8日当天记录的船舶MMSI和对应时间"
+  },
+  {
+    "question_id": 2549,
+    "question": "查询所有IMO编号不为空的船舶，显示MMSI、IMO和每艘船的最新更新时间，按IMO编号降序、最新更新时间升序排列。"
+  },
+  {
+    "question_id": 2560,
+    "question": "查询今天吃水深度最大的前3艘船舶的MMSI和最大吃水值。"
+  },
+  {
+    "question_id": 2570,
+    "question": "找出在2024年6月1日所有货船的吃水深度的总和。"
+  },
+  {
+    "question_id": 2577,
+    "question": "查询表中不重复的船舶MMSI数量。"
+  },
+  {
+    "question_id": 2598,
+    "question": "根据目的地分组，计算每个目的地有多少条AIS记录。"
+  },
+  {
+    "question_id": 2604,
+    "question": "按IMO编号分组，查询出现了多少条含有IMO编号的记录。"
+  },
+  {
+    "question_id": 2613,
+    "question": "查找那些至少有一条记录速度大于15节的货船的MMSI及呼号"
+  },
+  {
+    "question_id": 2618,
+    "question": "找出航行状态与MMSI为412000123的船舶最新航行状态相同的所有船舶记录。"
+  },
+  {
+    "question_id": 2621,
+    "question": "列出今天记录数少于MMSI为351000023今天记录数的所有船舶MMSI及对应记录数。"
+  },
+  {
+    "question_id": 2646,
+    "question": "查找最新记录在距离IMO为8765432的船舶的最新位置不超过15公里，且船舶类型为油轮的其他船舶。"
+  },
+  {
+    "question_id": 2651,
+    "question": "查询距离(122.1, 30.0) 15公里范围内的锚泊船舶，并按MMSI统计每艘船的上报次数。"
+  },
+  {
+    "question_id": 2655,
+    "question": "在(114.0, 22.5)坐标点方圆20公里内，统计按MMSI分组数量，并仅返回记录数超过3条的船舶。"
+  },
+  {
+    "question_id": 2659,
+    "question": "计算今天在(113.5, 22.2)周围8公里圆形区域内所有船舶的平均速度和最大速度。"
+  },
+  {
+    "question_id": 2672,
+    "question": "查询距离(122.0, 30.0)点由近到远的前10艘船舶的MMSI和距离。"
+  },
+  {
+    "question_id": 2693,
+    "question": "查询最近24小时内，在(113.2, 22.0)至(113.4, 22.2)矩形区域中船首向为空或为0的船舶，返回全部字段，限制10条记录。"
+  },
+  {
+    "question_id": 2695,
+    "question": "查询昨天在(113.5, 22.0)至(114.0, 22.5)矩形内，航行状态为锚泊(1)的船舶数量，并按船舶类型分组。"
+  },
+  {
+    "question_id": 2706,
+    "question": "查询在2024年6月1日当天，位于由(121.3,31.0)、(121.5,31.0)、(121.4,31.2)三点围成的三角形区域内的所有船舶记录。"
+  },
+  {
+    "question_id": 2735,
+    "question": "查询今天在(121.5,31.1)、(121.6,31.1)、(121.6,31.2)、(121.5,31.2)矩形区域内，航行状态为航行中的船舶ais记录，按最近更新时间降序返回。"
+  },
+  {
+    "question_id": 2736,
+    "question": "查询MMSI为351000001的船舶在2024年6月1日上午10:00:00时的位置与坐标(121.5,31.2)之间的直线距离（米）。"
+  },
+  {
+    "question_id": 2743,
+    "question": "查询昨天下午3点到5点，MMSI为412000123的船舶到坐标(114.0,22.5)的每小时平均距离。"
+  },
+  {
+    "question_id": 2759,
+    "question": "找出2024-06-01这天，与MMSI为351000003的船舶在空间上最接近的其它船舶，返回该船舶MMSI和距离。"
+  },
+  {
+    "question_id": 2761,
+    "question": "获取船舶MMSI为351000001在2024年6月1日08:00-12:00的航行轨迹距离"
+  },
+  {
+    "question_id": 2763,
+    "question": "计算船舶MMSI为351000002在2024年6月1日全天的轨迹总长度（单位：米）。"
+  },
+  {
+    "question_id": 2790,
+    "question": "查询2026年2月2日 22:22:22 之后的所有船舶记录"
+  },
+  {
+    "question_id": 2795,
+    "question": "查询转向率为999（通常表示无效或不可用）的船舶记录"
+  },
+  {
+    "question_id": 2804,
+    "question": "查询最近16小时内，IMO编号大于9000000的船舶"
+  },
+  {
+    "question_id": 2809,
+    "question": "查询最新位置在以(116.0°E, 21.0°N)为西南角、以(117.0°E, 22.0°N)为东北角的矩形框内的所有船舶"
+  },
+  {
+    "question_id": 2821,
+    "question": "查询呼号字段仅包含大写字母和数字（无小写）的船舶"
+  },
+  {
+    "question_id": 2838,
+    "question": "查询2025年2月28日的所有记录"
+  },
+  {
+    "question_id": 2861,
+    "question": "查询2024年6月1日这一天，所有IMO编号以'88'结尾的船舶记录"
+  },
+  {
+    "question_id": 2872,
+    "question": "查询最近24小时内，所有目的地为'SINGAPORE'且吃水深度大于10米的船舶MMSI"
+  },
+  {
+    "question_id": 2898,
+    "question": "检索最近24小时内在长江口南槽航道且吃水深度小于6米的船舶记录。"
+  },
+  {
+    "question_id": 2923,
+    "question": "统计最近48小时内经过漳州港招银港区航道且对地速度大于8节的船舶数量。"
+  },
+  {
+    "question_id": 2935,
+    "question": "计算最近48小时内，经过漳州港招银港区航道且速度超过10节的船舶中，每艘船在该航道内的最大速度、最小速度和平均速度，并返回平均速度最大的前3艘船舶。"
+  },
+  {
+    "question_id": 2938,
+    "question": "查询所属公司为‘中远海运’的船舶，在2024年6月1日08:00至12:00期间位于以(121.5,31.2)为圆心、半径10公里范围内的完整AIS记录。"
+  },
+  {
+    "question_id": 2952,
+    "question": "查询自持力大于30天且最大荷载量超过50000吨的船舶，在过去24小时内于(118.7,20.1)为中心半径3公里内的最新AIS记录。"
+  },
+  {
+    "question_id": 2954,
+    "question": "查询所属公司为‘中国外运’且最大航速低于15节的船舶，在昨天位于(121.0,31.0)-(121.5,31.5)矩形区域内的记录数量。"
+  },
+  {
+    "question_id": 2976,
+    "question": "查询自持力大于60天且所属公司为‘长航集团’的船舶，在昨天出现在(120.5, 30.6)至(121.0, 30.9)区域内且吃水深度超过9米的MMSI。"
+  },
+  {
+    "question_id": 2987,
+    "question": "查询在点(121.5,31.2)10公里范围内的船舶，按最大载重降序取10条。"
+  },
+  {
+    "question_id": 2990,
+    "question": "查询船长姓名为李刚的船舶，距离点(113.5,22.2)最近的1条AIS记录。"
+  },
+  {
+    "question_id": 3002,
+    "question": "查询最大载重小于2万吨的船舶，昨天在距离点(114.0,22.5)15公里内的AIS数据中按吃水深度降序取5条。"
+  },
+  {
+    "question_id": 3009,
+    "question": "查询船长陈明且自持力大于20天的船舶，昨天的AIS数据中每艘船按航速降序取一条（各船的最高航速记录）。"
+  },
+  {
+    "question_id": 3019,
+    "question": "查询今天在点(113.5,22.2)15公里内且航速大于12节的船舶，按最大载重降序取8条。"
+  },
+  {
+    "question_id": 3030,
+    "question": "查询最大载重大于7.5万吨的船舶，今天在点(120.5,30.6)10公里内的出现次数，按次数降序排列。"
+  },
+  {
+    "question_id": 3033,
+    "question": "查询货船类型（类型70）且位于点(118.7,20.1)5公里内的船舶，按最大载重降序取10条。"
+  },
+  {
+    "question_id": 3035,
+    "question": "查询中国外运公司旗下最大载重大于4万吨的船舶，每艘船取距离点(114.0,22.5)最近的AIS记录。"
+  },
+  {
+    "question_id": 3039,
+    "question": "获取在2024-06-01 08:00:00到12:00:00期间的船舶记录。"
+  },
+  {
+    "question_id": 3048,
+    "question": "列出所有销量超过20且商店位于 'CA' 州的书名。"
+  },
+  {
+    "question_id": 3069,
+    "question": "列出所有年初至今销售额高于平均值的书籍，按出版社名称排序。"
+  },
+  {
+    "question_id": 3072,
+    "question": "出版社中入职最早的员工所能达到的最高职位级别是多少？"
+  },
+  {
+    "question_id": 3078,
+    "question": "出版了最贵图书的出版社是哪个？"
+  },
+  {
+    "question_id": 3100,
+    "question": "出版社所有员工中，担任 Publisher 的比 Designer 多出百分之多少？"
+  },
+  {
+    "question_id": 3126,
+    "question": "代码仓库中解决方案路径为 'mauriciodeamorim_tdd.encontro2\\Tdd.Encontro2.sln' 的方法，其API调用序列是什么？"
+  },
+  {
+    "question_id": 3168,
+    "question": "GitHub上解决方案编号83855所在的仓库比编号1502所在的仓库，关注者多出百分之多少？"
+  },
+  {
+    "question_id": 3202,
+    "question": "GitHub上星标数超过复刻数三分之一的仓库里，有多少个解决方案？"
+  },
+  {
+    "question_id": 3245,
+    "question": "SC Ganguly 参加过的板球比赛平均获胜分差是多少？"
+  },
+  {
+    "question_id": 3247,
+    "question": "最年轻的板球运动员叫什么名字？"
+  },
+  {
+    "question_id": 3261,
+    "question": "M Chinnaswamy 体育场比马哈拉施特拉邦板球协会体育场多承办了多少场比赛？"
+  },
+  {
+    "question_id": 3272,
+    "question": "哪个赛季在 M Chinnaswamy Stadium 进行的板球比赛最多？"
+  },
+  {
+    "question_id": 3274,
+    "question": "Kolkata Knight Riders 作为第一队时，在哪个板球场馆比赛最多？"
+  },
+  {
+    "question_id": 3279,
+    "question": "谁在 Deccan Chargers 板球队担任队长的次数最多？"
+  },
+  {
+    "question_id": 3280,
+    "question": "右手击球的板球运动员占所有运动员的百分之多少？"
+  },
+  {
+    "question_id": 3281,
+    "question": "1981年7月7日出生的板球运动员叫什么名字？"
+  },
+  {
+    "question_id": 3288,
+    "question": "列出阿联酋的所有板球城市。"
+  },
+  {
+    "question_id": 3289,
+    "question": "Pune Warriors 板球队总共赢了多少场比赛？"
+  },
+  {
+    "question_id": 3302,
+    "question": "列出有球员因击中三柱门出局的板球比赛编号。"
+  },
+  {
+    "question_id": 3316,
+    "question": "列出板球比赛中掷硬币获胜后选择先击球的队伍ID。"
+  },
+  {
+    "question_id": 3318,
+    "question": "列出所有获得过单场最佳球员奖的板球运动员的出生日期。"
+  },
+  {
+    "question_id": 3320,
+    "question": "Mumbai Indians 板球队赢了多少场比赛？"
+  },
+  {
+    "question_id": 3321,
+    "question": "列出作为第二队对阵过 Pune Warriors 的板球队名称。"
+  },
+  {
+    "question_id": 3330,
+    "question": "Pune市有多少个板球比赛场馆？"
+  },
+  {
+    "question_id": 3337,
+    "question": "板球裁判最多的来自哪个国家？有多少位？"
+  },
+  {
+    "question_id": 3340,
+    "question": "平均每个国家有多少名右手击球的板球运动员？"
+  },
+  {
+    "question_id": 3348,
+    "question": "接杀数超过平均水平的板球运动员姓名和国籍是什么？按接杀数升序排列。"
+  },
+  {
+    "question_id": 3368,
+    "question": "板球比赛中因犯规球产生的额外得分平均值是多少？"
+  },
+  {
+    "question_id": 3375,
+    "question": "给出在 Kingsmead 板球场举行的比赛编号和日期。"
+  },
+  {
+    "question_id": 3422,
+    "question": "列出2015年板球比赛中以平局结束的对阵双方球队名称。"
+  },
+  {
+    "question_id": 3426,
+    "question": "Rajkot 市属于哪个国家？"
+  },
+  {
+    "question_id": 3437,
+    "question": "获胜分差最小的板球比赛中第二队叫什么名字？"
+  },
+  {
+    "question_id": 3441,
+    "question": "1970年出生的板球运动员有多少人？"
+  },
+  {
+    "question_id": 3443,
+    "question": "2008年4月有多少场板球比赛？"
+  },
+  {
+    "question_id": 3449,
+    "question": "有多少印度籍板球运动员？"
+  },
+  {
+    "question_id": 3464,
+    "question": "Kings XI Punjab 在2008赛季赢了多少场板球比赛？"
+  },
+  {
+    "question_id": 3478,
+    "question": "在 St George's Park 板球场举行的比赛中，获胜分差最高的是哪场？给出比赛编号。"
+  },
+  {
+    "question_id": 3487,
+    "question": "在双方都位于细胞核的基因对中，最高的表达相关性得分是多少？"
+  },
+  {
+    "question_id": 3512,
+    "question": "1970年到1980年间执教时间最长的教练是谁？列出教练ID和他执教过的球队。"
+  },
+  {
+    "question_id": 3531,
+    "question": "请列出执教过超过2支NBA球队的教练姓名。"
+  },
+  {
+    "question_id": 3576,
+    "question": "全明星球员的平均BMI是多少？"
+  },
+  {
+    "question_id": 3581,
+    "question": "1992年NBA年度最佳教练奖得主执教的球队叫什么名字？"
+  },
+  {
+    "question_id": 3582,
+    "question": "1973年投篮命中率最高的NBA球员叫什么名字？"
+  },
+  {
+    "question_id": 3590,
+    "question": "哪个州出生的全明星球员最多？"
+  },
+  {
+    "question_id": 3614,
+    "question": "休斯顿小牛队的NBA比赛总负场占总比赛场次的百分比是多少？"
+  },
+  {
+    "question_id": 3674,
+    "question": "莎士比亚所有作品的平均角色数是多少？"
+  },
+  {
+    "question_id": 3676,
+    "question": "莎士比亚创作了多少部喜剧？"
+  },
+  {
+    "question_id": 3684,
+    "question": "《约翰王》中有多少场？"
+  },
+  {
+    "question_id": 3686,
+    "question": "请给出《仲夏夜之梦》第二幕第二场的场景描述。"
+  },
+  {
+    "question_id": 3714,
+    "question": "莎士比亚创作有154场的作品是在什么时候？"
+  },
+  {
+    "question_id": 3721,
+    "question": "列出莎士比亚作品章节ID 18710中的角色名称和描述。"
+  },
+  {
+    "question_id": 3791,
+    "question": "游戏ID 10031的发行商名称是什么？"
+  },
+  {
+    "question_id": 3801,
+    "question": "游戏Advent Rising的类型是什么？"
+  },
+  {
+    "question_id": 3817,
+    "question": "区域ID 2中游戏平台ID 9615的销量是多少？"
+  },
+  {
+    "question_id": 3819,
+    "question": "游戏3DS Classic Collection是什么时候发行的？"
+  },
+  {
+    "question_id": 3824,
+    "question": "列出销量达到30万及以上的游戏所在区域名称。"
+  },
+  {
+    "question_id": 3873,
+    "question": "2007年发行游戏最多的发行商叫什么名字？"
+  },
+  {
+    "question_id": 3876,
+    "question": "任天堂发行了多少款体育类游戏？"
+  },
+  {
+    "question_id": 3902,
+    "question": "Brash Entertainment发行的游戏占所有游戏的百分比是多少？"
+  },
+  {
+    "question_id": 3913,
+    "question": "列出日本销量超过20万的游戏的发行年份。"
+  },
+  {
+    "question_id": 3915,
+    "question": "哪个发行商有史以来发行的游戏最多？"
+  },
+  {
+    "question_id": 3917,
+    "question": "2014年发行的游戏中PS4平台占所有平台的百分比是多少？"
+  },
+  {
+    "question_id": 3931,
+    "question": "游戏Grand Theft Auto V的类型是什么？"
+  },
+  {
+    "question_id": 3942,
+    "question": "游戏ID 44的游戏名称是什么？"
+  },
+  {
+    "question_id": 3960,
+    "question": "游戏ID 156是什么时候发布的？"
+  },
+  {
+    "question_id": 3977,
+    "question": "2008年至2011年间期刊'Molecular Brain'平均每年发表多少篇论文？"
+  },
+  {
+    "question_id": 3982,
+    "question": "列出名为Peter的作者的作者ID。"
+  },
+  {
+    "question_id": 4003,
+    "question": "在作者ID小于1000的作者中，隶属于苏黎世联邦理工学院的作者发表的论文ID、年份和关键词是什么？"
+  },
+  {
+    "question_id": 4008,
+    "question": "提供2013年发表的论文中任意四个有效期刊ID及其简称和全名。"
+  },
+  {
+    "question_id": 4014,
+    "question": "论文'364: Induction of Mixed Chimerism and Transplantation Tolerance in a Non-Human Primate Lung Allograft Model: Early Results'的期刊主页URL是什么？"
+  },
+  {
+    "question_id": 4017,
+    "question": "列出没有网站的会议上发表的论文标题。"
+  },
+  {
+    "question_id": 4035,
+    "question": "请提供Jean-luc Hainaut的一篇论文发表的会议全名。"
+  },
+  {
+    "question_id": 4040,
+    "question": "按字母顺序列出隶属于牛津大学的作者姓名。"
+  },
+  {
+    "question_id": 4048,
+    "question": "列出Adam Jones在2005年至2010年间发表的论文标题。"
+  },
+  {
+    "question_id": 4058,
+    "question": "论文'Quality evaluation of long duration audiovisual content'的会议主页URL是什么？"
+  },
+  {
+    "question_id": 4063,
+    "question": "1991年至2000年间，会议'Informatik & Schule'与'International Conference on Supercomputing'发表的论文总数差是多少？"
+  },
+  {
+    "question_id": 4068,
+    "question": "1994年发表在期刊'Modeling Identification and Control'上的论文关键词是什么？"
+  },
+  {
+    "question_id": 4108,
+    "question": "亚利桑那州有多少家已关闭或不再经营的Yelp商家？"
+  },
+  {
+    "question_id": 4121,
+    "question": "用户编号70271只给Yelp商家留了一条提示，那家商家属于哪个类别？"
+  },
+  {
+    "question_id": 4123,
+    "question": "汽车类商家占所有Yelp商家的百分比是多少？"
+  },
+  {
+    "question_id": 4126,
+    "question": "2005年加入Yelp但没有粉丝的用户有多少？"
+  },
+  {
+    "question_id": 4127,
+    "question": "Tolleson市有多少家正在经营的Yelp商家？"
+  },
+  {
+    "question_id": 4155,
+    "question": "Yelp上时尚行业中有多少商家被评为5星？"
+  },
+  {
+    "question_id": 4180,
+    "question": "Scottsdale和Anthem哪个城市更吸引用户的Yelp商家更多？"
+  },
+  {
+    "question_id": 4194,
+    "question": "仍在经营的Yelp商家中，有多少家属于食品类？"
+  },
+  {
+    "question_id": 4207,
+    "question": "请列出周日营业时间超过12小时的Yelp商家ID。"
+  },
+  {
+    "question_id": 4208,
+    "question": "有多少精英用户评论了Yelp商家编号1？"
+  },
+  {
+    "question_id": 4255,
+    "question": "用户60776给Yelp商家1写的评论长度是什么？"
+  },
+  {
+    "question_id": 4266,
+    "question": "亚利桑那州凤凰城评论数中等、3.5星评分的不活跃Yelp商家的属性值是什么？"
+  },
+  {
+    "question_id": 4268,
+    "question": "Yelp本地服务类商家中，星级评分低于3星的占百分之多少？"
+  },
+  {
+    "question_id": 4279,
+    "question": "在Yelp商家中获得最多评论点赞的用户总共有多少粉丝？"
+  },
+  {
+    "question_id": 4324,
+    "question": "哪些用户在2012年成为了Yelp精英用户？"
+  },
+  {
+    "question_id": 4326,
+    "question": "有多少Yelp商家在周日早上10点签到率低？"
+  },
+  {
+    "question_id": 4335,
+    "question": "Yelp上Casa Grande市注册了多少活跃商家？"
+  },
+  {
+    "question_id": 4393,
+    "question": "Yelp上评分高于2星且评论数低的类别有多少个？"
+  },
+  {
+    "question_id": 4424,
+    "question": "凤凰城有多少活跃Yelp商家被用户留下了长评论？"
+  },
+  {
+    "question_id": 4429,
+    "question": "Yelp上妇产科类商家的平均星级评分是多少？"
+  },
+  {
+    "question_id": 4444,
+    "question": "列出亚利桑那州Glendale市活跃Yelp商家的类别。"
+  },
+  {
+    "question_id": 4469,
+    "question": "辛普森一家20季剧组中年龄最大的是谁？"
+  },
+  {
+    "question_id": 4491,
+    "question": "为'Helen Lovejoy'配音的演员出生名是什么？"
+  },
+  {
+    "question_id": 4553,
+    "question": "列出Bonita Pietila被列入演职员表的类别及其在剧集中的角色。"
+  },
+  {
+    "question_id": 4592,
+    "question": "哪些剧集平均评分中等且2星投票数超过20？"
+  },
+  {
+    "question_id": 4639,
+    "question": "2009年举办了多少奖项？"
+  },
+  {
+    "question_id": 4661,
+    "question": "在投票数最高的剧集中，Carlton Batten被列入什么演职类别？"
+  },
+  {
+    "question_id": 4682,
+    "question": "美国调查受访者的平均年龄是多少？"
+  },
+  {
+    "question_id": 4689,
+    "question": "请列出2014年调查中对问题'Any additional notes or comments'的非空回答。"
+  },
+  {
+    "question_id": 4693,
+    "question": "根据2016年调查，过去曾患有精神健康障碍的用户数量是多少？"
+  },
+  {
+    "question_id": 4704,
+    "question": "提供参与2016年心理健康调查的用户数量。"
+  },
+  {
+    "question_id": 4707,
+    "question": "对于问题'What US state or territory do you work in?'，有多少人回答'Kansas'？"
+  },
+  {
+    "question_id": 4723,
+    "question": "华特迪士尼公司1998年的总票房收入比1997年多多少？"
+  },
+  {
+    "question_id": 4757,
+    "question": "列出有歌曲的迪士尼电影的导演名单。"
+  },
+  {
+    "question_id": 4768,
+    "question": "提供迪士尼主角Elsa所属电影的标题、总票房和电影协会分级。"
+  },
+  {
+    "question_id": 4772,
+    "question": "提供迪士尼电影Wreck-It Ralph的导演姓名。"
+  },
+  {
+    "question_id": 4774,
+    "question": "1937年至1950年间迪士尼上映了多少部电影？"
+  },
+  {
+    "question_id": 4805,
+    "question": "身高最高的男性奥林匹克运动员来自哪个地区？请给出该地区的NOC代码。"
+  },
+  {
+    "question_id": 4834,
+    "question": "斯德哥尔摩举办了多少届夏季奥林匹克运动会？"
+  },
+  {
+    "question_id": 4855,
+    "question": "计算参加1992年夏季奥运会运动员的平均年龄。"
+  },
+  {
+    "question_id": 4877,
+    "question": "奥运运动员Carl Lewis Borack在哪些城市参加过比赛？"
+  },
+  {
+    "question_id": 4903,
+    "question": "计算汤加男性奥运运动员的平均体重。"
+  },
+  {
+    "question_id": 4912,
+    "question": "参加2000年夏季奥运会的31岁运动员有多少人？"
+  },
+  {
+    "question_id": 4917,
+    "question": "1988年奥运会中身高超过170厘米的女性运动员占百分之多少？"
+  },
+  {
+    "question_id": 4934,
+    "question": "最年长的奥运参赛者叫什么名字？"
+  },
+  {
+    "question_id": 4952,
+    "question": "最年长奥运参赛者参加的比赛在哪个城市举办？"
+  },
+  {
+    "question_id": 4976,
+    "question": "2014年8月交易次数最多的客户全名是什么？"
+  },
+  {
+    "question_id": 4977,
+    "question": "请列出Frank-Paul Santangelo在2014年7月7日购买的所有根汁啤酒品牌。"
+  },
+  {
+    "question_id": 4992,
+    "question": "拥有信用卡号6011179359005380的客户电话号码是什么？"
+  },
+  {
+    "question_id": 5011,
+    "question": "Tom Hanks在2015年至2016年间购买了多少瓶根汁啤酒？"
+  },
+  {
+    "question_id": 5028,
+    "question": "平均每天销售多少瓶含咖啡因的根汁啤酒？"
+  },
+  {
+    "question_id": 5029,
+    "question": "找出单位利润最高和最低的根汁啤酒，并列出这些根汁啤酒销售的容器类型。"
+  },
+  {
+    "question_id": 5033,
+    "question": "2012年获得最多5星评分的根汁啤酒是哪个品牌？请给出品牌名称。"
+  },
+  {
+    "question_id": 5041,
+    "question": "所有使用American Express支付客户的精确位置是什么？"
+  },
+  {
+    "question_id": 5099,
+    "question": "修订页面ID为'16203226'的加泰罗尼亚语维基百科页面的标题是什么？"
+  },
+  {
+    "question_id": 5110,
+    "question": "标题Aigua dolça的修订页面ID是什么？"
+  },
+  {
+    "question_id": 5112,
+    "question": "单词数最少的10个标题的平均单词数是多少？"
+  },
+  {
+    "question_id": 5120,
+    "question": "指出重复次数最多的单词是哪个。"
+  },
+  {
+    "question_id": 5145,
+    "question": "编号为1和8968的双词对中的第二个单词是什么？"
+  },
+  {
+    "question_id": 5181,
+    "question": "有多少个双词对以base作为第二个单词？"
+  },
+  {
+    "question_id": 5206,
+    "question": "Lucas Wyldbore平均每次购书花费多少钱？"
+  },
+  {
+    "question_id": 5215,
+    "question": "畅销书的书名是什么？"
+  },
+  {
+    "question_id": 5236,
+    "question": "Penguin Classics出版了William Shakespeare的多少本书？"
+  },
+  {
+    "question_id": 5242,
+    "question": "ISBN为23755004321的书是什么语言？"
+  },
+  {
+    "question_id": 5248,
+    "question": "页数最多的书的作者是谁？"
+  },
+  {
+    "question_id": 5254,
+    "question": "提供Moss Zarb的联系邮箱。"
+  },
+  {
+    "question_id": 5260,
+    "question": "Ace Hardcover出版了多少本书？"
+  },
+  {
+    "question_id": 5265,
+    "question": "有多少客户来自澳大利亚？"
+  },
+  {
+    "question_id": 5294,
+    "question": "Marcelia Goering在2021年使用Priority配送方式下了多少个订单？"
+  },
+  {
+    "question_id": 5306,
+    "question": "指出位于Lazaro Cardenas的客户的完整地址。"
+  },
+  {
+    "question_id": 5308,
+    "question": "指出最有收藏价值的六本书的标题。"
+  },
+  {
+    "question_id": 5311,
+    "question": "购书客户中，哥斯达黎加的客户位于哪些城市？"
+  },
+  {
+    "question_id": 5316,
+    "question": "通过ID标识所有已被取消的订单。"
+  },
+  {
+    "question_id": 5346,
+    "question": "写出地址位于55 Dorton Pass, Huangqiao的客户的全名。"
+  },
+  {
+    "question_id": 5355,
+    "question": "页数最多的书是哪本？"
+  },
+  {
+    "question_id": 5373,
+    "question": "在Birlinn出版社2008年出版的书里，有多少本的页数在600到700之间？"
+  },
+  {
+    "question_id": 5378,
+    "question": "提供图书ID 7160的ISBN和价格。"
+  },
+  {
+    "question_id": 5400,
+    "question": "请列出图像1中对象样本14的所有预测关系类别。"
+  },
+  {
+    "question_id": 5411,
+    "question": "图像2347915中有多少个白色对象？"
+  },
+  {
+    "question_id": 5412,
+    "question": "给出图像2377985中属性为electrical的样本数量。"
+  },
+  {
+    "question_id": 5430,
+    "question": "最高图像对应的预测关系类别ID是什么？"
+  },
+  {
+    "question_id": 5432,
+    "question": "所有预测关系类别ID为98的图像的X和Y坐标是什么？"
+  },
+  {
+    "question_id": 5449,
+    "question": "图像1中对象样本25和对象样本2之间的关系是什么？"
+  },
+  {
+    "question_id": 5450,
+    "question": "图像4中对象样本7关联了多少个属性？"
+  },
+  {
+    "question_id": 5475,
+    "question": "找出图像5中坐标为(634, 468)的对象。"
+  },
+  {
+    "question_id": 5477,
+    "question": "图像1中的对象样本数量与图像6中的对象样本数量之比是多少？"
+  },
+  {
+    "question_id": 5517,
+    "question": "图像ID 107有多少个'has'谓词类别？"
+  },
+  {
+    "question_id": 5545,
+    "question": "列出出生在加拿大、已故的门将及其效力过的球队。"
+  },
+  {
+    "question_id": 5576,
+    "question": "请列出擅长左右手扑救且已入选名人堂的球员的名字。"
+  },
+  {
+    "question_id": 5584,
+    "question": "获得奖项最多的球员是在哪个月出生的？"
+  },
+  {
+    "question_id": 5624,
+    "question": "1986年最关键的球员是谁？请给出全名。"
+  },
+  {
+    "question_id": 5637,
+    "question": "2005年客场胜利次数最多的球队是哪支？请标明球队ID。"
+  },
+  {
+    "question_id": 5683,
+    "question": "请列出所有与水牛城军刀队比赛过的球队名称。"
+  },
+  {
+    "question_id": 5686,
+    "question": "蒙特利尔加拿大人队在斯坦利杯决赛中罚时49分钟是在哪一年？是1924年、1923年还是1918年？"
+  },
+  {
+    "question_id": 5711,
+    "question": "来自芬兰的球员的全名是什么？"
+  },
+  {
+    "question_id": 5716,
+    "question": "是否有教练之前不是球员但获过奖？请列出其ID。"
+  },
+  {
+    "question_id": 5718,
+    "question": "来自美国的球员总出场次数是多少？"
+  },
+  {
+    "question_id": 5732,
+    "question": "列出2016年为播客'Pop Rocket'创建评分低于5分的评论的作者。"
+  },
+  {
+    "question_id": 5739,
+    "question": "评论者留下标题为'Long time listener, calling it quits'的评论的播客名称和URL是什么？"
+  },
+  {
+    "question_id": 5751,
+    "question": "哪些播客的评论创建时间在2018-08-22T11:53:16-07:00和2018-11-20T11:14:20-07:00之间？"
+  },
+  {
+    "question_id": 5757,
+    "question": "列出art类别的标题。"
+  },
+  {
+    "question_id": 5775,
+    "question": "标题为'really interesting!'且创建于2018-04-24 12:05:16的评论的内容是什么？"
+  },
+  {
+    "question_id": 5780,
+    "question": "最容易导致体重增加的食谱的标题是什么？"
+  },
+  {
+    "question_id": 5783,
+    "question": "请列出所有可能导致便秘、感到恶心或胃痛的食谱的标题。"
+  },
+  {
+    "question_id": 5791,
+    "question": "食谱“Raspberry Chiffon Pie”至少需要多少杯graham cracker crumbs？"
+  },
+  {
+    "question_id": 5798,
+    "question": "说明1397号食谱的可选成分名称。"
+  },
+  {
+    "question_id": 5805,
+    "question": "说明含有最多种类成分的食谱的标题。"
+  },
+  {
+    "question_id": 5855,
+    "question": "列出所有自行车归还到坐标37.331415, -121.8932的行程。说明自行车借出的日期。"
+  },
+  {
+    "question_id": 5893,
+    "question": "起点站和终点站相同的行程有多少？"
+  },
+  {
+    "question_id": 5921,
+    "question": "2013年8月在San Jose市内进行了多少次自行车出行？"
+  },
+  {
+    "question_id": 5939,
+    "question": "电影ACADEMY DINOSAUR的描述是什么？"
+  },
+  {
+    "question_id": 5973,
+    "question": "哪位顾客租的电影更多，是RUTH MARTINEZ还是LINDA WILLIAMS？"
+  },
+  {
+    "question_id": 5979,
+    "question": "给出不活跃顾客的数量。"
+  },
+  {
+    "question_id": 5982,
+    "question": "说明Nordrhein-Westfalen地区的地址数量。"
+  },
+  {
+    "question_id": 6002,
+    "question": "给出3479号库存对应的电影名称。"
+  },
+  {
+    "question_id": 6022,
+    "question": "最贵的儿童电影的每日租借价格是多少？"
+  },
+  {
+    "question_id": 6026,
+    "question": "列出印度顾客的姓名。"
+  },
+  {
+    "question_id": 6032,
+    "question": "列出姓氏为'KILMER'的演员的ID。"
+  },
+  {
+    "question_id": 6053,
+    "question": "有多少部电影的租借费率为0.99？"
+  },
+  {
+    "question_id": 6080,
+    "question": "列出所有评级为'仅限成人'的电影的标题。"
+  },
+  {
+    "question_id": 6103,
+    "question": "位于Gansu地区的地址编号是什么？"
+  },
+  {
+    "question_id": 6119,
+    "question": "有多少演员的名字叫'Dan'？"
+  },
+  {
+    "question_id": 6126,
+    "question": "不活跃客户的地址是什么？"
+  }
+]
